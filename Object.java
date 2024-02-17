@@ -1,3 +1,5 @@
+// Copyright (c) avijit bhattacharjee
+// Copyright (c) avijit bhattacharjee
 // toString, hashmap, equals concept
 
 class Laptop {

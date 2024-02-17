@@ -1,3 +1,5 @@
+// Copyright (c) avijit bhattacharjee
+// Copyright (c) avijit bhattacharjee
 interface A  extends Y{
 
     int price = 50;             // variables under interface are always

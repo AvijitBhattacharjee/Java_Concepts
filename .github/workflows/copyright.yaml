@@ -1,3 +1,4 @@
+// Copyright (c) avijit bhattacharjee
 name: Copyright Check
 
 on:
@@ -15,4 +16,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run copyright check
-        run: .build-scripts/copyright_check.sh
+        run: build-scripts/copyright_check.sh

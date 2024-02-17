@@ -1,3 +1,5 @@
+// Copyright (c) avijit bhattacharjee
+// Copyright (c) avijit bhattacharjee
 // lamda only works for functional interface
 
 @FunctionalInterface

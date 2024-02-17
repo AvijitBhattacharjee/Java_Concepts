@@ -1,3 +1,4 @@
+// Copyright (c) avijit bhattacharjee
 #!/bin/bash
 
 current_year=$(date +"%Y")

@@ -1,3 +1,5 @@
+// Copyright (c) avijit bhattacharjee
+// Copyright (c) avijit bhattacharjee
 
 @FunctionalInterface
 interface A { void show(int i); }

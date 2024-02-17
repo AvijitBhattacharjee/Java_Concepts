@@ -1,3 +1,5 @@
+// Copyright (c) avijit bhattacharjee
+// Copyright (c) avijit bhattacharjee
 class A extends Thread {
     public void run() {
 
