@@ -1,6 +1,4 @@
-// Copyright (c) avijit bhattacharjee
-// Copyright (c) avijit bhattacharjee
-
+// Copyright (c) avijit bhattacharjee 2024
 class A {
     public void show() {
         System.out.println("IN A");

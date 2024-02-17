@@ -1,5 +1,4 @@
-// Copyright (c) avijit bhattacharjee
-// Copyright (c) avijit bhattacharjee
+// Copyright (c) avijit bhattacharjee 2024
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;

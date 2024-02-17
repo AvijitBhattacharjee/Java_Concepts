@@ -1,5 +1,5 @@
-// Copyright (c) avijit bhattacharjee
-// Copyright (c) avijit bhattacharjee
+// Copyright (c) avijit bhattacharjee 2024
+
 package others;
 
 public class Tools {
