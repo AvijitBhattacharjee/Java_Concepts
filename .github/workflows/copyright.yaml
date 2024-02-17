@@ -15,4 +15,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run copyright check
-        run: sudo build-scripts/copyright_check.sh
+        run: 
+          chmod +x build-scripts/copyright_check.sh
+          ./build-scripts/copyright_check.sh
