@@ -1,4 +1,4 @@
-name: Compile Java Classes
+name: Compile and Execute Java Classes
 
 on:
   pull_request:
@@ -28,3 +28,7 @@ jobs:
         run: |
           javac Sorting.java
           java Sorting
+
+      - name: Execute Java Classes
+        run: |
+          java Sorting    
