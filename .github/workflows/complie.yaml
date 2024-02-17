@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '0 19 * * *'    
 
 jobs:
   Execution_Java:
@@ -22,7 +24,9 @@ jobs:
           distribution: 'adopt'
 
       - name: Build with javac
-        run: javac -version
+        run: |
+          javac -version
+          java --version
 
       - name: Compile Java Classes
         run: |
