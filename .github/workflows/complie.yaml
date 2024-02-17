@@ -1,0 +1,25 @@
+name: Complie Java Classes
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+job:
+  Pre-Requisite:
+    - name: Checkout Repo
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+        with:
+          fetch-depth: 0
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11' # You can specify the version you need
+
+    - name: Build with javac
+      run: javac -version
+
+    - name: Complie Java Classes
+      run: javac Sorting.java    
+          
