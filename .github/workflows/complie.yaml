@@ -1,4 +1,4 @@
-name: Complie Java Classes
+name: Compile Java Classes
 
 on:
   pull_request:
@@ -7,21 +7,22 @@ on:
       - main
 
 jobs:
-  Complilation Java:
-  runs-on: ubuntu-latest
+  Execution_Java:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-          uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
-          with:
-            fetch-depth: 0
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+        with:
+          fetch-depth: 0
+
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: '11' # You can specify the version you need
+          java-version: '11'
 
       - name: Build with javac
         run: javac -version
 
-      - name: Complie Java Classes
-        run: javac Sorting.java    
-            
+      - name: Compile Java Classes
+        run: |
+          javac Sorting.java
