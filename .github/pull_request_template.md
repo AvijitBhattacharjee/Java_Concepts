@@ -1,4 +1,3 @@
-// Copyright (c) avijit bhattacharjee
 ## Requirement
 Please describe the need for this change
 
