@@ -6,19 +6,21 @@ on:
     branches:
       - main
 
-job:
-  Pre-Requisite:
-    - name: Checkout Repo
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+jobs:
+  Execution Java:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+          uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+          with:
+            fetch-depth: 0
+      - name: Set up JDK
+        uses: actions/setup-java@v2
         with:
-          fetch-depth: 0
-    - name: Set up JDK
-      uses: actions/setup-java@v2
-      with:
-        java-version: '11' # You can specify the version you need
+          java-version: '11' # You can specify the version you need
 
-    - name: Build with javac
-      run: java -version
+      - name: Build with javac
+        run: java -version
 
-    - name: Complie Java Classes
-      run: java Sorting 
+      - name: Complie Java Classes
+        run: java Sorting 
