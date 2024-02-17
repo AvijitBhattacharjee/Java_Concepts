@@ -1,0 +1,20 @@
+name: Copyright Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  copyright_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run copyright check
+        run: 
+          chmod +x build-scripts/copyright_check.sh
+          ./build-scripts/copyright_check.sh

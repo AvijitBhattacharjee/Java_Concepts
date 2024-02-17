@@ -1,3 +1,5 @@
+// Copyright (c) avijit bhattacharjee
+// Copyright (c) avijit bhattacharjee
 
 // if we use class B extends Thread then we can not extend other class as multiple inhertitence not allowed in java
 // thats why we are implementing Runnable 
