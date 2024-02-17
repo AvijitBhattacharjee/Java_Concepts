@@ -1,5 +1,4 @@
-// Copyright (c) avijit bhattacharjee
-// Copyright (c) avijit bhattacharjee
+// Copyright (c) avijit bhattacharjee 2024
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

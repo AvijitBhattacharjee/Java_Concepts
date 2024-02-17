@@ -1,6 +1,4 @@
-// Copyright (c) avijit bhattacharjee
-// Copyright (c) avijit bhattacharjee
-
+// Copyright (c) avijit bhattacharjee 2024
  abstract class Car {
 
     // method needs to be abstract

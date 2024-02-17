@@ -1,6 +1,4 @@
-// Copyright (c) avijit bhattacharjee
-// Copyright (c) avijit bhattacharjee
-
+// Copyright (c) avijit bhattacharjee 2024
 enum Status {
     Running, Failed, Stopped, Completed
 }
