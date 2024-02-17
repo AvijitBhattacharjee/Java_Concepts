@@ -15,5 +15,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run copyright checks
+      - name: Run copyright check
         run: build-scripts/copyright_check.sh
