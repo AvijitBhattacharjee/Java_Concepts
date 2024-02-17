@@ -27,3 +27,4 @@ jobs:
       - name: Compile Java Classes
         run: |
           javac Sorting.java
+          java Sorting
