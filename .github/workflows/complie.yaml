@@ -30,8 +30,11 @@ jobs:
 
       - name: Compile Java Classes
         run: |
-          javac Sorting.java
+          javac src/main/java/Sorting.java
+          javac src/main/java/Typecasting.java
 
       - name: Execute Java Classes
         run: |
-          java Sorting    
+          cd src/main/java/
+          java Sorting  
+          java Typecasting    
